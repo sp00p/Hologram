@@ -22,12 +22,6 @@ The command syntax is as follows:
 /hologram create [c] [COLOR] <y> <YPOS> <message>
 ``` 
 
-You can also use the command without a color and the hologram color will be white by default. 
-
-```
-/hologram create <y> <YPOS> <message>
-```
-
 The colors that are supported are as follows: 
 
 ```
@@ -56,7 +50,7 @@ Note: Colors are CaSe SeNsItIvE
 ```
 Add height modification ✅ 
 
-Add formatting options 
+Add formatting options ✅ 
 
 Add individual character colors 
 
