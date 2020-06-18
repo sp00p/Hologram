@@ -45,7 +45,7 @@ Note: Colors are CaSe SeNsItIvE
 
 [Example Usage](https://seancornell.io/ss/se7bsme4.gif)
 
-## Todo
+## Todo for Alpha 0.2
 
 ```
 Add height modification ✅ 
