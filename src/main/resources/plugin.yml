@@ -1,8 +1,8 @@
-name: FirstPlugin
+name: Hologram
 version: ${project.version}
-main: org.sean.firstplugin.firstplugin.FirstPlugin
+main: org.sean.hologram
 authors: [CombatSandvich]
-description: My First Plugin lol!
+description: A lightweight plugin to create holograms in Spigot servers.
 website: https://seancornell.io
 commands:
   hologram:
