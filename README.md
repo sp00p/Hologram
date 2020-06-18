@@ -54,11 +54,13 @@ Note: Colors are CaSe SeNsItIvE
 ## Todo
 
 ```
-Add height modification
+Add height modification ✅ 
 
 Add formatting options 
 
 Add individual character colors 
+
+Add tags for deleting specific holograms
 ```
 
 ## Deployment
