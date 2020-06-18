@@ -19,7 +19,7 @@ Unzip the zip file after you install it into a folder. After that go into an IDE
 
 The command syntax is as follows:
 ```
-/hologram create [c] [COLOR] <y> <YPOS> <message>
+/hologram create [c] [COLOR] <y> <YPOS> <bold> <italic> <strikethrough> <magic> <message>
 ``` 
 
 The colors that are supported are as follows: 
