@@ -2,7 +2,6 @@
 
 Hologram is a simple plugin to create holograms using armorstands in Spigot servers.  
 
-https://seancornell.io/ss/se7bsme4.gif
 
 ## Getting Started
 
@@ -49,6 +48,8 @@ RED
 YELLO
 ```
 Note: Colors are CaSe SeNsItIvE
+
+[Example Usage](https://seancornell.io/ss/se7bsme4.gif)
 
 ## Todo
 
