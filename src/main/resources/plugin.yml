@@ -1,0 +1,8 @@
+name: FirstPlugin
+version: ${project.version}
+main: org.sean.firstplugin.firstplugin.FirstPlugin
+authors: [CombatSandvich]
+description: My First Plugin lol!
+website: https://seancornell.io
+commands:
+  hologram:
