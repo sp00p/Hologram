@@ -52,9 +52,11 @@ Add height modification ✅
 
 Add formatting options ✅ 
 
-Add individual character colors 
+Add individual character color editing 
 
 Add tags for deleting specific holograms
+
+Add GUI for deleting specific holograms
 ```
 
 ## Deployment
