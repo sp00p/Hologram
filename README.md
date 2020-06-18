@@ -1,6 +1,6 @@
 # Hologram
 
-Hologram is a simple plugin to create holograms using armorstands in Spigot servers.  
+Hologram is a simple plugin to create holograms using armor stands in Spigot servers.  
 
 
 ## Getting Started
