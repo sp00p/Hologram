@@ -43,7 +43,7 @@ YELLO
 ```
 Note: Colors are CaSe SeNsItIvE
 
-[Example Usage](https://seancornell.io/ss/se7bsme4.gif)
+[Example Usage](https://seancornell.io/ss/4q9mzfmm.gif)
 
 ## Todo for Alpha 0.2
 
