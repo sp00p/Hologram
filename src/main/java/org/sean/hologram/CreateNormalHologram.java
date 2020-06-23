@@ -46,7 +46,7 @@ public class CreateNormalHologram implements CommandExecutor {
                         stand.setCustomNameVisible(true);
                         stand.setCustomName(finalmsg);
 
-                        plr.sendMessage(ChatColor.GREEN + "Hologram created successfully, " + ChatColor.BLUE + plr);
+                        plr.sendMessage(ChatColor.GREEN + "Hologram created successfully, " + ChatColor.BLUE + plr.getName());
                     } else if (!string.contains("&")){
 
                         String finalmsg = string.replace("_"," ").trim();
@@ -59,7 +59,7 @@ public class CreateNormalHologram implements CommandExecutor {
                         stand.setCustomNameVisible(true);
                         stand.setCustomName(ChatColor.WHITE + finalmsg);
 
-                        plr.sendMessage(ChatColor.GREEN + "Hologram created successfully, " + ChatColor.BLUE + plr);
+                        plr.sendMessage(ChatColor.GREEN + "Hologram created successfully, " + ChatColor.BLUE + plr.getName());
                     } else {
                         plr.sendMessage(ChatColor.RED + "There was an error creating your hologram!");
                         plr.sendMessage("The syntax for this command can be found here: https://github.com/sp00p/Hologram/wiki/Commands");
