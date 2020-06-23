@@ -19,43 +19,14 @@ Unzip the zip file after you install it into a folder. After that go into an IDE
 
 The command syntax is as follows:
 ```
-/hologram create [c] [COLOR] <y> <YPOS> <bold> <italic> <strikethrough> <magic> <message>
+/hologram create cc <msg> y <yPos>
 ``` 
 
-The colors that are supported are as follows: 
-
-```
-AQUA
-BLACK
-BLUE
-DARK_AQUA
-DARK_BLUE
-DARK_GRAY
-DARK_GREEN
-DARK_PURPLE
-DARK_RED
-GOLD
-GRAY
-GREEN
-LIGHT_PURPLE
-RED
-YELLO
-```
-Note: Colors are CaSe SeNsItIvE
+Supported colors and formatting optionscan be found here: 
+https://github.com/sp00p/Hologram/wiki/Supported-Colors
 
 [Example Usage](https://seancornell.io/ss/4q9mzfmm.gif)
 
-## Todo for Alpha 0.2
-
-```
-Add height modification ✅ 
-
-Add formatting options ✅ 
-
-Add tags for deleting specific holograms
-
-Add GUI for deleting specific holograms
-```
 
 ## Deployment
 
