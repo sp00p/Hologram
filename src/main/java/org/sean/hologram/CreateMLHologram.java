@@ -66,7 +66,7 @@ public class CreateMLHologram implements CommandExecutor {
                             stand2.setCustomNameVisible(true);
                             stand2.setCustomName(finalmsg2);
 
-                            ArmorStand stand3 = (ArmorStand) plr.getWorld().spawnEntity(plr.getLocation().add(0, yNum - decreaseScale, 0), EntityType.ARMOR_STAND);
+                            ArmorStand stand3 = (ArmorStand) plr.getWorld().spawnEntity(plr.getLocation().add(0, yNum - (decreaseScale * 2), 0), EntityType.ARMOR_STAND);
                             stand3.setVisible(false);
                             stand3.setGravity(false);
                             stand3.setInvulnerable(true);
@@ -93,7 +93,7 @@ public class CreateMLHologram implements CommandExecutor {
                             stand2.setCustomNameVisible(true);
                             stand2.setCustomName(ChatColor.WHITE + line2Raw);
 
-                            ArmorStand stand3 = (ArmorStand) plr.getWorld().spawnEntity(plr.getLocation().add(0, yNum - decreaseScale, 0), EntityType.ARMOR_STAND);
+                            ArmorStand stand3 = (ArmorStand) plr.getWorld().spawnEntity(plr.getLocation().add(0, yNum - (decreaseScale * 2), 0), EntityType.ARMOR_STAND);
                             stand3.setVisible(false);
                             stand3.setGravity(false);
                             stand3.setInvulnerable(true);
