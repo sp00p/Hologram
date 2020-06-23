@@ -22,8 +22,11 @@ The command syntax is as follows:
 /hologram create cc <msg> y <yPos>
 ``` 
 
-Supported colors and formatting optionscan be found here: 
+Supported colors and formatting options can be found here: 
 https://github.com/sp00p/Hologram/wiki/Supported-Colors
+
+More command documentation can be found here: 
+https://github.com/sp00p/Hologram/wiki/Commands
 
 [Example Usage](https://seancornell.io/ss/4q9mzfmm.gif)
 
