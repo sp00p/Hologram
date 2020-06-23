@@ -73,8 +73,8 @@ public class CreateMLHologram implements CommandExecutor {
 
                             stand3.setCustomNameVisible(true);
                             stand3.setCustomName(finalmsg3);
-                            
-                            plr.sendMessage(ChatColor.GREEN + "Multi-line hologram created successfully, " + ChatColor.BLUE + plr);
+
+                            plr.sendMessage(ChatColor.GREEN + "Multi-line hologram created successfully, " + ChatColor.BLUE + plr.getName());
                         } else if (!line1Raw.contains("&") && !line2Raw.contains("&") && !line3Raw.contains("&")) {
 
                             ArmorStand stand1 = (ArmorStand) plr.getWorld().spawnEntity(plr.getLocation().add(0, yNum, 0), EntityType.ARMOR_STAND);
@@ -101,7 +101,7 @@ public class CreateMLHologram implements CommandExecutor {
                             stand3.setCustomNameVisible(true);
                             stand3.setCustomName(ChatColor.WHITE + line3Raw);
 
-                            plr.sendMessage(ChatColor.GREEN + "Multi-line hologram created successfully, " + ChatColor.BLUE + plr);
+                            plr.sendMessage(ChatColor.GREEN + "Multi-line hologram created successfully, " + ChatColor.BLUE + plr.getName());
                         }
                     } else {
                         plr.sendMessage(ChatColor.RED + "There was an error creating your hologram!");
