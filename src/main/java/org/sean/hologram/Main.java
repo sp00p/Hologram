@@ -11,6 +11,7 @@ public final class Main extends JavaPlugin {
 
         getCommand("hologram").setExecutor(new CreateNormalHologram());
         getCommand("mlhologram").setExecutor(new CreateMLHologram());
+        getCommand("holocolors").setExecutor(new ShowSupportedColors());
     }
 
 
