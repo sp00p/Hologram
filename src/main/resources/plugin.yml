@@ -6,3 +6,4 @@ description: A lightweight plugin to create holograms in Spigot servers.
 website: https://seancornell.io
 commands:
   hologram:
+  mlhologram:
