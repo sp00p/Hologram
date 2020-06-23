@@ -12,8 +12,8 @@ import static org.bukkit.Bukkit.getServer;
 
 public class CreateNormalHologram implements CommandExecutor {
 
-    // hologram create cc <msg> y [y position] (spaces with _)
-    //            0     1   2   3       4
+    // hologram create <msg> yNum (note: spaces with _)
+    //            0     1      2
 
     public String color (String string) {
         return ChatColor.translateAlternateColorCodes('&', string);
@@ -45,8 +45,24 @@ public class CreateNormalHologram implements CommandExecutor {
 
                         stand.setCustomNameVisible(true);
                         stand.setCustomName(finalmsg);
+
+                        plr.sendMessage(ChatColor.GREEN + "Hologram created successfully, " + ChatColor.BLUE + plr);
+                    } else if (!string.contains("&")){
+
+                        String finalmsg = string.replace("_"," ").trim();
+
+                        ArmorStand stand = (ArmorStand) plr.getWorld().spawnEntity(plr.getLocation().add(0, yNum, 0), EntityType.ARMOR_STAND);
+                        stand.setVisible(false);
+                        stand.setGravity(false);
+                        stand.setInvulnerable(true);
+
+                        stand.setCustomNameVisible(true);
+                        stand.setCustomName(ChatColor.WHITE + finalmsg);
+
+                        plr.sendMessage(ChatColor.GREEN + "Hologram created successfully, " + ChatColor.BLUE + plr);
                     } else {
-                        plr.sendMessage(ChatColor.RED + "String " + string + " does not contain &");
+                        plr.sendMessage(ChatColor.RED + "There was an error creating your hologram!");
+                        plr.sendMessage("The syntax for this command can be found here: https://github.com/sp00p/Hologram/wiki/Commands");
                     }
 
 
