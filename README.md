@@ -30,11 +30,6 @@ https://github.com/sp00p/Hologram/wiki/Commands
 
 [Example Usage](https://seancornell.io/ss/1dk4fvbe.gif)
 
-
-## Deployment
-
-This plugin requires that you run a Spigot server. Simply install the latest build from releases, put it into your server's plugins folder, and you're ready to go!
-
 ## Contributing
 
 Please feel free to fork this project! I'll check pull requests periodically. You can add me on discord if you want to contribute as well (Sean#0004).
